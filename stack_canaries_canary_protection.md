@@ -9,3 +9,4 @@ This value is checked to make sure it has not changed before a routine uses the 
 This technique can greatly increase the difficulty of exploiting a stack buffer overflow because it forces the attacker to gain control of the instruction pointer by some non-traditional means such as corrupting other important variables on the stack.
 
 #source https://en.wikipedia.org/wiki/Stack_buffer_overflow#Stack_canaries
+https://ctf-wiki.github.io/ctf-wiki/pwn/linux/mitigation/canary/
