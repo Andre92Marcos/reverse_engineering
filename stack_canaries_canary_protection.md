@@ -10,4 +10,5 @@ This technique can greatly increase the difficulty of exploiting a stack buffer 
 
 ### source 
 https://en.wikipedia.org/wiki/Stack_buffer_overflow#Stack_canaries
+
 https://ctf-wiki.github.io/ctf-wiki/pwn/linux/mitigation/canary/
