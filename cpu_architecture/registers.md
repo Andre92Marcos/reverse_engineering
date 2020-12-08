@@ -8,3 +8,6 @@
 
 **register instruction pointer - rip**
 	points to the next instruction to exectue
+
+**register destination index - rdi**
+	destination for data copies
