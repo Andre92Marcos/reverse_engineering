@@ -10,4 +10,7 @@
 	points to the next instruction to exectue
 
 **register destination index - rdi**
-	destination for data copies
+	destination for data copies, used to pass the 1st argument to functions
+
+**register source index - rsi**
+	used to pass the 2nd argument to functions
