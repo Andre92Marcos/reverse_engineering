@@ -1,7 +1,7 @@
 from pwn import *
+import sys
 
-PATH_TO_BINARY= '/workspace/github/network/challenges/nactf/binary_exploitation/dropit/climb' # specify the path to the binary to overflow
-
+PATH_TO_BINARY= str(sys.argv[1]) # specify the path to the binary to overflow
 p = process(PATH_TO_BINARY)
 
 gdb.attach(p.pid, "c")
